@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+body{background-color:black;
+    background-position: center; 
+    background-image: url("4.webp");
+    background-repeat: no-repeat; 
+    background-size: 200%;
+      margin: 0;
+      font-family: cursive;
+      font-style: italic;
+}
+.vel{
+    margin-left: 220px;
+     color: rgb(15, 111, 189);
+}
+div{
+    color: black;
+}
+.dip{
+    border: 2px solid;
+    padding: 20px;
+    resize: both;
+   overflow: auto; 
+}
+
+.container {
+    padding: 8px;
+    max-width: 1000px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+span.psw {
+    float: right;
+    padding-top: 10px;
+  }
+  
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+  }
+  
+  .button {
+    background-color: #4e76aa;
+    color:black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  
+  .container {
+    padding: 8px;
+  }
+  
+.img{
+   
+    
+}
+.h1{
+
+}
+
+
+
+
+@media screen and (max-width: 700px) {
+    body{
+        background-position: center;
+
+        background-size: 600%;
+    }
+   .container{
+   margin: 0;
+   }
+   .vel{
+    margin-left: 100px;
+   }
+  }

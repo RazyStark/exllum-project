@@ -1,0 +1,205 @@
+*{
+  box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+}
+body{color: white;
+  background-color: black;
+}
+.lot{  background-size:cover;
+ 
+  background-repeat: no-repeat;
+  background-image:url(beautiful-girl-stands-near-walll-with-leaves_8353-5378.avif);
+}
+.position {margin: 0;
+  padding: 5px;
+  background-color: black;
+  position: sticky;
+  top: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+
+}
+button{
+  
+}
+.more{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.box{
+font-size: 24px;
+  padding: 10px;
+  width: 266px;
+  background-color: black;
+  opacity: 0.8;
+  color: white;
+border: 2px solid black;
+}
+
+.navbar { opacity: 100%;
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  overflow: hidden;
+  text-decoration: none;
+
+}
+
+.nav{
+  font-size: 20px;
+  color: white;
+}
+.nav2{
+  font-size: 20px;
+  color: white;
+}
+
+.nav:hover{
+  text-decoration:none;
+}
+
+.notification {
+  background-color: #555;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  position: relative;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.notification:hover {
+  background:black;
+}
+
+.notification .badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+}
+.rap{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+
+.x{height: 100px;
+}
+.x2{display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 30px;
+  font-size: 14px;
+  color:gray;
+  margin-left: -6px;
+}
+.x3{
+  font-size: 14px;
+  color:gray;
+}
+
+.child{text-align: center;
+  position: relative;
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-size: 68px;
+font-family: cursive;
+}
+.child2{text-align: center;
+  position: relative;
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-size: 50px;
+letter-spacing: 30px;
+font-family:serif;
+}
+.lorem{  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  width: 100px;
+}
+.jin{color: white;
+
+  background-color: black;
+}
+
+.nav{
+
+}
+
+
+#myInput {
+  box-sizing: border-box;
+  background-image: url('searchicon.png');
+  background-position: 14px 12px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 14px 20px 12px 45px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+
+.my{
+  display: flex;
+  justify-content: center;
+} 
+.fn{
+  padding-top: 300px;
+}
+.not{align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+
+@media screen and (max-width:700px) {
+  
+.nav{display: none;
+}
+.x{
+  height: 30px;
+}
+.child{
+  font-size: 20px;
+}
+.box{color: white;
+  padding: 5px;
+  font-size:15px;
+  width: fit-content;
+}
+.fn{
+  padding-top: 100px;
+}
+.hit{
+  margin-top:342px;
+}
+.child2{
+  letter-spacing: 20px;
+  font-size: 20px;
+
+}
+.notification{
+  display: none;
+}
+}

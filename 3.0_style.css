@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: black;
+    color: white;
+  }
+  .back {width: 100%;
+      border: 2px solid  rgb(51, 48, 48);
+    position: absolute;
+  }
+  .heading {
+    position: relative;
+  
+    text-align: center;
+    z-index: 10;
+  }
+  .h1 {margin: 20px;
+    position: relative;
+    font-size: 34px;
+  }
+  .h2{color: rgb(182, 116, 116);
+    text-align: start;
+    margin: 10px;
+  }
+  .position {margin: 0;
+      padding: 5px;
+      position: sticky;
+      top: 0px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 100;
+    
+    }
+  .navbar {transition: 10s;
+      opacity: 100%;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    overflow: hidden;
+    text-decoration: none;
+  }
+  .navbar :hover{
+      color: rgb(102, 102, 29);
+    }
+  
+  form.example input[type="text"] {
+    position: relative;
+    z-index: 10;
+    padding: 10px;
+    font-size: 10px;
+    border: 2px solid grey;
+    width: 70%;
+    background: black;
+  }
+  
+  form.example button {
+    position: relative;
+    z-index: 10;
+    height: 30px;
+    width: 20%;
+    background: rgb(52, 141, 141);
+    color: black;
+    font-size: 10px;
+    border: 3px solid grey;
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: gray;
+    color: white;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .flex1 {
+      display: flex;
+     
+      padding: 0 4px;
+      padding-top: 60%;
+    }
+    
+    .flex {
+      flex: 10%;
+    }
+    
+  .flex img {
+      margin-top: 8px;
+      vertical-align: middle;
+    }

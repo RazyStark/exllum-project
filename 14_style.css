@@ -1,0 +1,64 @@
+*{margin: 0;
+
+    padding:0 ;
+
+    box-sizing: border-box;
+}
+body{    background-repeat:no-repeat;
+color: white;
+background-size: cover;
+background-position: center;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-image: url(new.webp);
+}
+.ex{display: flex;
+    flex-direction: column;
+    gap: 50px;
+margin: 100px;
+}
+.eb{
+   font-size: large; 
+}
+.position{
+   display: flex;
+}
+
+button{color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 10px 56px;
+    background-color: black;
+}
+input{
+    padding: 10px 15px;
+    border-color: lightgrey;
+    background-color:lightgrey;
+}
+.bar{
+    display: flex;
+}
+
+.ev{  font-family: cursive;
+}
+i {
+   
+}
+@media screen and (max-width: 700px) {
+    
+    .body{
+        background-repeat:space;
+    }
+    .ex{
+        margin: 20px;
+    }
+    .position{
+        display: flex;
+        flex-direction: column;
+    }
+    input{
+        padding: 0px;
+    }
+    button{
+        padding: 5px;
+    }
+}

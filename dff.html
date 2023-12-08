@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+  <style>
+img {
+  position:absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  width: 2000px;
+  height:500px ;
+}
+.container {
+    position: relative;
+  }
+  .black-box {position: relative;
+  z-index:1;
+  border:2px solid black;
+  height:100px;
+  margin:30px}
+  .gray-box{position:absolute 
+    u  z-index:3/* gray box will be above both green and black box*/
+  backkground:light;}
+  
+
+  html,body{padding: 0;
+        margin: 0;
+    }
+    #video-container{
+        position:relative;
+        top:0;
+        left: 0;
+        right: 0;
+        height: 400px;
+        background-color: white ;
+        background-size: cover;
+    }
+    .tagline{
+
+    padding: 10px 30px;
+    position:absolute;
+    top: 5%;
+    left: 60%;
+    transform: -50%, -50%;}
+    <div id="video-container">
+ <video autoplay loop muted>
+        <source src="6L8E.mp4" type="video/mp4">
+        <source src="6L8E.mp4" type="video/ogg">
+        <source src="6L8E.mp4" type="video/wedm">
+        video
+        </video>
+    <div class="tagline">
+        Ads
+    </div>
+</div>
+<h1 class="dox">Unsplash</h1>
+<style>
+    .dox{text-align: left;}
+</style>
+<h2 class="dox">Beautiful free pictures</h2>
+   <b><p class="dox">Gifted by the most generous photographers.</p></b><style>
+.dox2 {
+    border: 5px solid ;
+    background-color:darkgrey;
+    width: 200px;
+    text-align:center;}
+    
+   <a href="www.//https"><p class="dox2">Submit a photo</a></p>
+   <style>
+    div.gallery {
+      margin: 5px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 180px;
+    }
+    
+    div.gallery:hover{
+      border: 2px solid #777;
+    }
+    
+    
+    div.gallery img {
+      width: 100%;
+      height: auto;
+    }
+    
+    div.desc {
+      padding: 15px;
+      text-align: center;
+    }
+    
+    div.gallery {
+          border: 1px solid #ccc;
+        }
+        
+        div.gallery:hover {
+          border: 1px solid #777;
+        }
+        
+        div.gallery img {
+          width: 100%;
+          height: auto;
+        }
+        
+        div.desc {
+          padding: 15px;
+          text-align: center;
+        }
+        
+        * {
+          box-sizing: border-box;
+        }
+        
+        .responsive {
+          padding: 0 6px;
+          float: left;
+          width: 24.99999%;
+        }
+        
+        @media only screen and (max-width: 700px) {
+          .responsive {
+            width: 49.99999%;
+            margin: 6px 0;
+          }
+        }
+        @media screen and (max-width: 1000px) {
+            .responsive {
+                background-color: red;
+            }
+        }
+        
+        .clearfix:after {
+          content: "";
+          display: table;
+          clear: both;}
+</style>
+<body>
+
+<h1>This is a heading</h1>
+<img src="img_mountains.jpg">
+<p>Because the image has a z-index of -1, it will be placed behind the text.</p>   
+
+
+</body>
+</html>

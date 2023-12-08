@@ -1,0 +1,221 @@
+*{ transition: 1s;
+    text-decoration: none;
+   
+    
+}
+body{ font-family: "GT Flexa Variable", "GT Flexa", sans-serif ;
+    margin: 0;
+    background-color: white;
+}
+.position2 {margin: 0px;
+    position: sticky;
+    top: 0px;
+    align-items: end;
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(43, 1, 43);
+    height: 60px;
+ 
+  }
+  .all{
+    font-size: 15px;
+    color: white;
+    
+  }
+    .navbar2 {
+      display: flex;
+      gap: 100px;
+      align-items: center;
+      text-decoration: none;
+      justify-content: space-between;
+    
+    }
+    .navbar2 :hover{transition: 1s;
+        color: rgb(102, 102, 29);
+      }
+      .h12{margin: 20px;
+        position: relative;
+        font-size: 34px;
+        color:black;
+        text-align: center;
+        font-size: large;
+      }
+
+.background{
+    gap: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 500px;
+    padding: 10px;
+    background-color: rgb(113, 107, 194);
+}
+.background2{
+    background-color: rgb(135, 119, 150);
+}
+.h1{
+    color:white ;
+    font-size: 17px;
+}
+button{background-color:white;
+    border-radius: 20px;
+    height: 50px;
+    width: 200px;
+    
+}
+.button :hover{color: white;
+    background-color: rgb(73, 61, 61);
+}
+.h13{
+    color: white;
+}
+.h2{
+    text-align: center;
+    color: black;
+}
+.p2{border: 2px solid rgb(214, 201, 201);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 10px;
+   margin: 20px;
+   max-width: 400px;
+}
+.comms1{
+    margin: 20px;
+}
+.comm{display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   width: 300px;
+
+}
+
+.comms2{display: flex;
+    flex-direction: row;
+    color: rgb(43, 1, 43);
+}
+.team {display: flex;
+    flex-direction: row;
+   flex-wrap: wrap;
+    width: 300px;
+    position: relative;
+    padding-top: 30px;
+  }
+  .ron{
+    display: flex;
+    margin: 15px;
+    gap: 20px;
+    overflow: auto;
+    }
+    .overlays{padding-left:250px ;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .mark{margin: 20px;
+        text-align: center;
+          color: rgb(43, 1, 43);
+    }
+    .mark2{margin: 20px;
+        color: rgb(43, 1, 43);
+font-size: 20px;  
+font-family: "GT Flexa Variable", "GT Flexa", sans-serif ;
+}
+.div{
+    margin: 20px;
+}
+.micro {
+    display: flex;
+}
+.micro1{
+    font-family: Tahoma, sans-serif;
+}
+.micro2{
+    margin: 80px
+}
+.micro2 :hover{text-decoration: dotted;
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+
+
+@media screen and ( max-width:700px) {
+    
+    .background{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;}
+    .all{
+        display: none;
+    }
+
+    .video{
+   display: flex;
+   flex-direction: column;
+   padding: 0;
+   width: 100%;
+    }
+    .h1{
+        font-size: 10px;
+       margin: 0;
+        font-family: "GT Flexa Variable", "GT Flexa", sans-serif ;
+    }
+    button{font-size: 10px;
+        width: 122px;
+        
+    }
+    .team{
+        display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      width: 400px;
+      position: relative;
+      padding-top: 30px;
+      width: 280px;
+      }
+    
+    .micro{
+        display :none;
+    }
+    .mark{font-size:15px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .mark2{
+        font-size:10px ;
+    }
+    .overlays{
+        width: 100%;
+        padding: 0;
+    }
+    .team{
+        width: 450px;
+    }
+    .comms2{
+        font-size: 15px;
+    } 
+    .comms1{
+        font-size: 18px;
+    }
+    .logo img{
+        width: 20px;
+        height: 20px;
+    }
+    .video1{
+        display: flex;
+        flex-direction: column;
+    }
+    .ron{
+        flex-direction: column;
+      }
+}

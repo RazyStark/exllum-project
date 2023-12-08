@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="11_style.css" />
+</head>
+<body>
+    <div class="var">
+      <h1>Exllum</h1>
+        <h3>You have submitted a<br>password change request!</h3>
+    </div>
+    <div class="var2">
+        <p>
+            Input your new password for Two-step-verification.
+        </p>
+    </div>
+    <div>
+        <div class="tex">
+
+            <form action="/action_page.php" >
+                
+            </form>
+              </div > 
+              <div style="color:black;"> 
+              <b>Enter new password</b>
+              <input type="password" value="" 
+              placeholder="Enter password"
+              
+              
+              id="myInput">
+                <input type="checkbox" onclick="myFunction()" class="b">Show Password</input>
+
+<br>
+<br>
+<b>Email</b>
+                <input type="password" placeholder="Enter email address...." name="psw" required>
+        
+                <a href="12_email.html"><button type="submit" class="b">Submit</button></a>
+              </div> 
+
+    </div>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myInput");
+          if (x.type === "password") {
+            x.type = "text";
+          } else {
+            x.type = "password";
+          }
+        }
+        </script>
+        <div style="margin: 10px;">
+            <p>If you are having any issue with your account, please don't hesitate to <a href="08_contact.html">Contact us</a>.</p>
+            <br>
+            <p>Thanks!</p>
+            <br>
+            <a href="09_login.html">Go back</a>
+        </div>
+</body>
+</html>

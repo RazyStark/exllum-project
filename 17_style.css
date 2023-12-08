@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.img{
+    width: 100%;
+}
+.parent{gap: 20%;
+    display: flex;
+}
